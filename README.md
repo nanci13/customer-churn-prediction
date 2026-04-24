@@ -12,13 +12,33 @@ It helps businesses identify at-risk customers and take proactiveretention actio
 
 
 
-## 🚀 Features
+## 🚀 Project Features
 
--   Data preprocessing and cleaning
--   Exploratory Data Analysis (EDA)
--   Machine Learning model training
--   Churn prediction on new data
--   Simple frontend interface for interaction
+### 📌 Input Features Used
+The model is trained on customer behavior attributes such as:
+- Tenure
+- Monthly Charges
+- Total Charges
+- Contract Type
+- Payment Method
+- Internet Service Type
+- Online Security / Tech Support usage
+- Demographic details (if available)
+
+---
+
+### 🤖 ML Pipeline
+- Data Cleaning & Missing Value Handling
+- Exploratory Data Analysis (EDA)
+- Feature Encoding (Categorical → Numerical)
+- Model Training (Classification)
+- Prediction of Customer Churn
+
+---
+
+### 📊 Output
+- Predicts whether a customer will **Churn or Not Churn**
+- Provides probability score (if enabled)
 
 
 ## 🧠 Technologies Used
