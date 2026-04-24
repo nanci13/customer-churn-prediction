@@ -23,7 +23,7 @@ The model is trained on customer behavior attributes such as:
 - Payment Method
 - Internet Service Type
 - Online Security / Tech Support usage
-- Demographic details (if available)
+
 
 ---
 
@@ -46,9 +46,9 @@ The model is trained on customer behavior attributes such as:
 -   Python 🐍
 -   Pandas, NumPy
 -   Scikit-learn
--   Matplotlib / Seaborn
--   Flask / Streamlit (if used in frontend)
--   HTML/CSS/JavaScript (frontend UI)
+-   os , pickle,json
+-   Streamlit 
+-   python (frontend UI)
 
 
 ## 📂 Project Structure
