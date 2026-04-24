@@ -53,15 +53,26 @@ The model is trained on customer behavior attributes such as:
 
 ## 📂 Project Structure
 
-    customer project/
-    │
-    ├── frontend/
-    │   └── app_ui.py
-    ├── dataset/
-    ├── model/
-    ├── notebooks/
-    └── README.md
-
+   customer project/
+│
+├── backend/
+│   ├── app.py
+│   ├── columns.json
+│   ├── model.pkl
+│   ├── preprocess.py
+│   ├── test_api.py
+│   └── train.py
+│
+├── data/
+│   └── churn.csv
+│
+├── frontend/
+│   └── app_ui.py
+│
+├── notebooks/
+│   └── model_training.ipynb
+│
+└── README.md
 
 ## ⚙️ Installation
 git clone https://github.com/nanci13/customer-churn-prediction.git
