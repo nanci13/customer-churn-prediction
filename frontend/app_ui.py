@@ -12,7 +12,8 @@ contract = st.selectbox("Contract Type", [
     "Month-to-month", "One year", "Two year"
 ])
 
-# Button
+# Button git push -u origin main https://github.com/nanci13/customer-churn-prediction
+
 if st.button("Predict"):
 
     url = "http://127.0.0.1:5000/predict"
